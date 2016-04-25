@@ -19,3 +19,32 @@
 
 
 /*subpages*/
+.art{
+  background-color: #CCC;
+  min-height: 100vh;
+}
+  .art .header{
+    padding: 0;
+    font-size: 18px;
+    background-color: #81affa;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .home-icon{
+    font-size: 54px;
+    margin: 0;
+  }
+  .art .subheader{
+    height: 125px;
+    text-align: center;
+  }
+  .subheader-1{
+    font-size: 28px;
+  }
+  .subheader-2{
+    font-size: 22px;
+  }
+  .art .tiles{
+
+  }
