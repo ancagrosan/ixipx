@@ -17,6 +17,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: 'SanFrancisco';
+  overflow-x: hidden;
 }
 .row-no-padding > [class*='col-'] {
   padding-right:0;
@@ -40,7 +41,6 @@ html, body {
 .home .content .item{
   padding: 20px 0;
 }
-
 .icon{
   width: 100%;
 }
@@ -65,9 +65,14 @@ html, body {
 }
 
 .footer{
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
+  position: fixed;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	bottom: 0;
+	text-align: center;
+  color: #FFFFFF;
 }
 
 /*subpages*/
@@ -103,7 +108,7 @@ html, body {
     width: 100%;
   }
   .tiles div:hover{
-    z-index:1000;
+    /*z-index:1000;*/
     box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;
     -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;
     -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;  }
@@ -113,7 +118,7 @@ html, body {
   .subheader-2{
     font-size: 22px;
   }
-  
+
 @media only screen and (max-width: 500px) {
   .art .header{
     padding: 0;
