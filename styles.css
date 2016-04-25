@@ -50,6 +50,10 @@ html, body {
   border-radius: 25px;
 }
 @media only screen and (max-width: 500px) {
+  .home .content .icon{
+    width: 90%;
+    margin: 0 auto;
+  }
   .home .content .item img{
     max-width: 90%;
     max-height: 90%;
@@ -71,6 +75,7 @@ html, body {
 	line-height: 40px;
 	bottom: 0;
 	text-align: center;
+  font-size: 9px;
   color: #FFFFFF;
 }
 
@@ -110,11 +115,6 @@ html, body {
   .tiles img{
     width: 100%;
   }
-  .tiles div:hover{
-    z-index:1000;
-    box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;
-    -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;
-    -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 8px 8px 0;  }
   .subheader .title{
     font-size: 28px;
   }
