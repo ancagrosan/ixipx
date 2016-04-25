@@ -39,6 +39,13 @@ h1, h2{
   padding: 60px 0;
   width: 120px;
 }
+.home .content{
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
 .home .content .item{
   padding: 20px 0;
 }
