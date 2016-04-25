@@ -1,6 +1,22 @@
+@font-face {
+    font-family: "SanFrancisco";
+    src: url("sf/SF-UI-TEXT-Medium.otf");
+}
+@font-face {
+    font-family: "SanFrancisco";
+    src: url("sf/SF-UI-TEXT-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SanFrancisco";
+    src: url("sf/SF-UI-TEXT-Light.otf");
+    font-style: lighter;
+}
+
 html, body {
   width: 100%;
   height: 100%;
+  font-family: 'SanFrancisco';
 }
 .row-no-padding > [class*='col-'] {
   padding-right:0;
