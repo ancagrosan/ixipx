@@ -1,22 +1,26 @@
 @font-face {
     font-family: "SanFrancisco";
     src: url("sf/SF-UI-TEXT-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: "SanFrancisco";
+    font-family: "SanFranciscoBold";
     src: url("sf/SF-UI-TEXT-Bold.otf");
-    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: "SanFrancisco";
+    font-family: "SanFranciscoLight";
     src: url("sf/SF-UI-TEXT-Light.otf");
-    font-style: lighter;
+    font-weight: normal;
+    font-style: normal;
 }
 
 html, body {
   width: 100%;
   height: 100%;
-  font-family: 'SanFrancisco';
+  font-family: 'SanFranciscoLight';
   overflow-x: hidden;
 }
 .row-no-padding > [class*='col-'] {
@@ -127,6 +131,7 @@ h1, h2{
   }
   .subheader .title{
     font-size: 30px;
+    font-weight: 600;
   }
   .subheader .subtitle{
     font-size: 21px;
